@@ -11,7 +11,7 @@
 ### Next:
 
 - [x] Create code for mesaure water level and print on serial port with Arduino nano.
-- [] Create schemme for PCB.
+- [x] Create schemme for PCB.
 - [] Buy 3 octocuplers PC817C
 - [] Build PCB with ESP32. Consider the size of a box.
 - [] Build structure for sensors.
