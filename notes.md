@@ -6,7 +6,7 @@
 
 ### Work in progress:
 
-- Create schemme for PCB.
+- Send data constanly after susbscribe a topic, also add a topic for errors.
 
 ### Next:
 
@@ -16,13 +16,13 @@
 - [] Build code to send data via MQTT with Mosquitto en Rasberry pi as a local server.
     - [x] Install mosquitto on rasberrypi, send and receive data
     - [x] Connect esp32 to wifi
-    - [] Send data via mqtt from esp32 to mosquitto.
-    - [] Send data of sensors to mosquitto.
+    - [x] Send data via mqtt from esp32 to mosquitto.
+    - [x] Send data of sensors to mosquitto constantly.
+- [] Build web app back-end.
+- [] Build web app front-end.
 - [] Test wifi signal on the 4 floor.
 - [] Build PCB with ESP32. Consider the size of a box.
 - [] Build structure for sensors.
-- [] Build web app front-end.
-- [] Build web app back-end.
 - [] Test it before to install.
 - [] Install in water tank.
 
@@ -50,3 +50,4 @@
 - [Uso basico kicad](https://www.youtube.com/watch?v=EPH23zhPg50)
 - [MQTT with ESP32 tutorial](https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/)
 - [Install mosquitto on rasberrypi](https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/)
+- [Doc pub subclient](https://github.com/knolleary/pubsubclient/tree/master)
