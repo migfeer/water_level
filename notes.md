@@ -6,19 +6,22 @@
 
 ### Work in progress:
 
-- Send data constanly after susbscribe a topic, also add a topic for errors.
+- Learn about HTTP basics
 
 ### Next:
 
 - [x] Create code for mesaure water level and print on serial port with Arduino nano.
 - [x] Create schemme for PCB.
 - [x] Buy 3 octocuplers PC817C.
-- [] Build code to send data via MQTT with Mosquitto en Rasberry pi as a local server.
+- [x] Build code to send data via MQTT with Mosquitto en Rasberry pi as a local server.
     - [x] Install mosquitto on rasberrypi, send and receive data
     - [x] Connect esp32 to wifi
     - [x] Send data via mqtt from esp32 to mosquitto.
     - [x] Send data of sensors to mosquitto constantly.
 - [] Build web app back-end.
+    [] Learn about HTTP basics.
+    [] Para que sirve nodeJS, como lo conecto con MQTT, codigo minimo.
+    
 - [] Build web app front-end.
 - [] Test wifi signal on the 4 floor.
 - [] Build PCB with ESP32. Consider the size of a box.
